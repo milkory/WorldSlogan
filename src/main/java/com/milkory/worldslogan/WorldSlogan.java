@@ -56,7 +56,7 @@ public class WorldSlogan extends JavaPlugin {
         if (args.length == 1 && "reload".equalsIgnoreCase(args[0]) && sender.hasPermission("world-slogan.command.reload")) {
             onLoad();
             sender.sendMessage(ChatColor.GREEN + "Reloaded successfully!");
-        } else sender.sendMessage(ChatColor.RED + "Unknown Command or lack permission.");
+        } else sender.sendMessage(ChatColor.RED + "Unknown command or lack permission.");
         return true;
     }
 
