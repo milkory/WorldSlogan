@@ -1,0 +1,24 @@
+name: WorldSlogan
+main: com.milkory.worldslogan.WorldSlogan
+version: ${version}
+api-version: 1.13
+
+author: Milkory
+softdepend: [ PlaceholderAPI ]
+
+commands:
+  world-slogan:
+    aliases: [ ws ]
+
+permissions:
+  world-slogan.admin:
+    children:
+      - world-slogan.command.reload
+    default: op
+  world-slogan.player:
+    children:
+      - world-slogan.send.world
+      - world-slogan.send.command
+    default: true
+
+### CUSTOM PLUGIN 2021-08-23 ###

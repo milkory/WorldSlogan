@@ -1,0 +1,25 @@
+world-slogan:
+  world:
+    title: '&e欢迎来到这个世界'
+    subtitle: '&6Welcome to this world'
+  world_nether:
+    subtitle: '可以插入玩家名称： {player}'
+  world_the_end:
+    subtitle: '支持 PAPI 变量： %server_name%'
+    time: # 时间设定，此处都是默认值；以刻为单位（0.05 秒）
+      in: 10 # 0.5s
+      stay: 70 # 3.5s
+      out: 20 # 1s
+
+custom-command:
+  hello:
+    chat: '&aWhy hello there?'
+  '-v-':
+    subtitle: '&e=w='
+  multi-line:
+    chat: '&a聊天支持多行\n这是第二行'
+  multi-line-2:
+    chat: |-
+      这是内置的换行
+      也可以用
+      随便啦
